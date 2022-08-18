@@ -12,17 +12,17 @@ function status (bmi) {
 
 function calulate () {
 
-
+    function bmi () { 
 let weight = document.getElementById(`Weight`)
 let Height = document.getElementById(`Height`)
 
-let bmi = BMI(Wight.Height)
-let desc = Status(bmi)
-
-let dessc = Status(bmi)
+let bmi = bmi (Wight.Height)
+let desc = status (bmi)
+}
 
 let div = document.getElementById(`divtag`)
 
 
 div.innerTEXT = bmi + ` == ` + desc
+
 }
